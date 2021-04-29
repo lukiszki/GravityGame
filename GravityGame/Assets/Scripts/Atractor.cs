@@ -13,6 +13,9 @@ public class Atractor : MonoBehaviour
     /// </summary>
     public float  G = 6.674f;
 
+    private GravityManager Manager;
+    
+
     public Vector3 InitialVelocity = new Vector3(0,0,0);
 
     private void OnEnable()
@@ -20,6 +23,7 @@ public class Atractor : MonoBehaviour
         if (Atractors == null)
             Atractors = new List<Atractor>();
         Atractors.Add(this);
+        Manager = GameObject.Find("GravityManager").GetComponent<GravityManager>();
     }
 
     private void OnDestroy()
@@ -39,12 +43,16 @@ public class Atractor : MonoBehaviour
 
     private void Start()
     {
+        Manager = GameObject.Find("GravityManager").GetComponent<GravityManager>();
+
+        G = Mathf.Sqrt() Manager.GravityConst;
         rb = GetComponent<Rigidbody>();
-        rb.velocity = InitialVelocity;
+        rb.velocity = G*InitialVelocity;
     }
 
     void Atract(Atractor objToAtract)
     {
+        G = Manager.GravityConst;
         Rigidbody rbToAttract = objToAtract.rb;
 
         Vector3 direction = rb.position - rbToAttract.position;
