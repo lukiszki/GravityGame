@@ -189,7 +189,7 @@ TrailRenderer:
   m_Time: 800
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 498.59283
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -281,7 +281,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486072580}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -344,7 +344,7 @@ Transform:
   m_GameObject: {fileID: 486072580}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 52435}
-  m_LocalScale: {x: 253.62, y: 253.62, z: 253.62}
+  m_LocalScale: {x: 25.362, y: 25.362, z: 25.362}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -651,7 +651,7 @@ TrailRenderer:
   m_Time: 400
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 210.39604
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -743,7 +743,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185898353}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -806,7 +806,7 @@ Transform:
   m_GameObject: {fileID: 1185898353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 38279}
-  m_LocalScale: {x: 582.32, y: 582.32, z: 582.32}
+  m_LocalScale: {x: 58.232, y: 58.232, z: 58.232}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -923,7 +923,7 @@ TrailRenderer:
   m_Time: 80
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 202.34991
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1015,7 +1015,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699134870}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1078,7 +1078,7 @@ Transform:
   m_GameObject: {fileID: 1699134870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5423}
-  m_LocalScale: {x: 48.794, y: 48.794, z: 48.794}
+  m_LocalScale: {x: 12.1036, y: 12.1036, z: 12.1036}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1149,7 +1149,7 @@ TrailRenderer:
   m_Time: 80
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 498.59283
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1241,7 +1241,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1958759424}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1304,7 +1304,7 @@ Transform:
   m_GameObject: {fileID: 1958759424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 65391}
-  m_LocalScale: {x: 246.22, y: 246.22, z: 246.22}
+  m_LocalScale: {x: 24.622, y: 24.622, z: 24.622}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1390,7 +1390,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6078080249204772382, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_Parameters.widthMultiplier
-      value: 498.59283
+      value: 74.622894
       objectReference: {fileID: 0}
     - target: {fileID: 6078080249204772382, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_Time
@@ -1464,7 +1464,7 @@ TrailRenderer:
   m_Time: 80
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 308.99197
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1556,7 +1556,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129754814}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -1619,7 +1619,7 @@ Transform:
   m_GameObject: {fileID: 2129754814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10590}
-  m_LocalScale: {x: 67.79, y: 67.79, z: 67.79}
+  m_LocalScale: {x: 6.779, y: 6.779, z: 6.779}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -1668,7 +1668,7 @@ TrailRenderer:
   m_Time: 80
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 159.82716
+    widthMultiplier: 74.622894
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -1783,15 +1783,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3435537457938342500, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1398.22
+      value: 139.822
       objectReference: {fileID: 0}
     - target: {fileID: 3435537457938342500, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1398.22
+      value: 139.822
       objectReference: {fileID: 0}
     - target: {fileID: 3435537457938342500, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1398.22
+      value: 139.822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3435537457938342503, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3435537457938342507, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: InitialVelocity.x
@@ -1803,7 +1807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6078080249204772382, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
       propertyPath: m_Parameters.widthMultiplier
-      value: 370.903
+      value: 74.622894
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f6d94c132bf5f4e8f234013f619fe0, type: 3}
@@ -1820,7 +1824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 593316706566734201, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: m_Parameters.widthMultiplier
-      value: 160.64282
+      value: 74.622894
       objectReference: {fileID: 0}
     - target: {fileID: 6935212561548321163, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: InitialVelocity.x
@@ -1872,15 +1876,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6935212561548321165, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 127.42
+      value: 12.742
       objectReference: {fileID: 0}
     - target: {fileID: 6935212561548321165, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 127.42
+      value: 12.742
       objectReference: {fileID: 0}
     - target: {fileID: 6935212561548321165, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 127.42
+      value: 12.742
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935212561548321166, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6935212561548321169, guid: 0c87a47c68af7f142a300b4541b4867c, type: 3}
       propertyPath: m_Name
@@ -1931,7 +1939,7 @@ Transform:
   m_GameObject: {fileID: 8693226904222609613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3291}
-  m_LocalScale: {x: 48.794, y: 48.794, z: 48.794}
+  m_LocalScale: {x: 4.8794, y: 4.8794, z: 4.8794}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1944,7 +1952,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8693226904222609613}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5

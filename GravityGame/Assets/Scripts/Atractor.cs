@@ -42,6 +42,7 @@ public class Atractor : MonoBehaviour
             Atract(atractor);
         }
 
+        if(!(this.gameObject.name == "Sun"))
         this.transform.localScale = Manager.Scale * normalScale;
     }
 
