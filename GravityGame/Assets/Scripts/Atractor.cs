@@ -14,6 +14,8 @@ public class Atractor : MonoBehaviour
     public float  G = 6.674f;
 
     private GravityManager Manager;
+
+    private Vector3 normalScale;
     
 
     public Vector3 InitialVelocity = new Vector3(0,0,0);
@@ -39,15 +41,18 @@ public class Atractor : MonoBehaviour
             if(atractor != this)
             Atract(atractor);
         }
+
+        this.transform.localScale = Manager.Scale * normalScale;
     }
 
     private void Start()
     {
+        normalScale = this.transform.localScale;
         Manager = GameObject.Find("GravityManager").GetComponent<GravityManager>();
 
-        G = Mathf.Sqrt() Manager.GravityConst;
+        G = Manager.GravityConst;
         rb = GetComponent<Rigidbody>();
-        rb.velocity = G*InitialVelocity;
+        rb.velocity = InitialVelocity;
     }
 
     void Atract(Atractor objToAtract)
