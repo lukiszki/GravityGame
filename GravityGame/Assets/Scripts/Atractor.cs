@@ -48,6 +48,7 @@ public class Atractor : MonoBehaviour
 
     private void Start()
     {
+        SetValues();
         normalScale = this.transform.localScale;
         Manager = GameObject.Find("GravityManager").GetComponent<GravityManager>();
 
@@ -69,5 +70,51 @@ public class Atractor : MonoBehaviour
         Vector3 force = direction.normalized * forceMagnitude;
         rbToAttract.AddForce(force);
 
+    }
+
+    void SetValues()
+    {
+        switch (this.gameObject.name)
+        {
+            case "Sun":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.sunMass;
+                InitialVelocity = SolarInfo.sunVelocity;
+                break;
+            case "Mercury":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.mercuryMass;
+                InitialVelocity = SolarInfo.mercuryVelocity;
+                break;
+            case "Venus":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.venusMass;
+                InitialVelocity = SolarInfo.venusVelocity;
+                break;
+            case "Earth":
+               this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.earthMass;
+                InitialVelocity = SolarInfo.earthVelocity;
+                break;
+            case "Mars":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.sunMass;
+                InitialVelocity = SolarInfo.marsVelocity;
+                break;
+            case "Jupiter":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.jupiterMass;
+                InitialVelocity = SolarInfo.jupiterVelocity;
+                break;
+            case "Saturn":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.saturnMass;
+                InitialVelocity = SolarInfo.saturnVelocity;
+                break;
+            case "Uranus":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.uranusMass;
+                InitialVelocity = SolarInfo.uranusVelocity;
+                break;
+            case "Neptun":
+                this.gameObject.GetComponent<Rigidbody>().mass = SolarInfo.neptunMass;
+                InitialVelocity = SolarInfo.neptunVelocity;
+                break;
+
+
+                
+        }
     }
 }
